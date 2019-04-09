@@ -1,4 +1,4 @@
-# La manipulation du DOM avec Jquery.
+ # La manipulation du DOM avec Jquery.
 
 ## Exercice 1 : Au commencement
 
