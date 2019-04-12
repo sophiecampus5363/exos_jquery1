@@ -4,13 +4,50 @@
 <head>
     <meta charset="utf-8">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="script.js"></script>
 </head>
 
 <body>
     <div class="container">
+
+        <form>
+            Email<br />
+            <input type="email"><br />
+            Password<br />
+            <input type="password"><br />
+            <input type="button" class="connexion-btn" value="se connecter"><br />
+
+        </form>
+
+        <div class="alert alert-warning d-none mail">
+            <strong>Email obligatoire.</strong> 
+            
+        </div>
+
+        <div class="alert alert-warning d-none mdp">
+            <strong>Mot de passe obligatoire.</strong> 
+            
+        </div>
+
+        <div class="alert alert-warning d-none mdpLength">
+            <strong>Votre mot de passe doit contenir au moins 6 caractères.</strong> 
+            
+        </div>
+
+        <div class="alert alert-warning d-none emailSyntax">
+            <strong>Veuillez entrer une adresse mail correcte svp.</strong> 
+            
+        </div>
+
+        <div class="alert alert-warning d-none isConnected">
+            <strong>Vous êtes connecté(e)</strong> 
+            
+        </div>
+
     </div>
 </body>
 
